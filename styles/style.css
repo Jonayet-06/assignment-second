@@ -160,6 +160,28 @@ header{
     padding-bottom:10px;
 }
 
+/* latest deal styles */
+.latest-deal-container{
+    max-width:1440px;
+    margin:0px auto;
+    text-align:center;
+    margin-top:134px;
+    padding:0px 150px;
+}
+.latest-deal-title{
+    font-weight:bold;
+    font-size:4.1rem;
+}
+.latest-deal-split{
+    color:rgba(233, 90, 8, 1);
+}
+.latest-deal-description{
+    color:rgba(0, 0, 0, 0.5);
+    font-weight:400;
+    font-size:1.4rem;
+}
+
+
 /* Responsive Media Query for small device */
 @media screen and (max-width:576px){
     .nav-item-1,.nav-item-2{

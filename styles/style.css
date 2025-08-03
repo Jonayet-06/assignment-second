@@ -1,0 +1,188 @@
+/* Noto Serif Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared style */
+main{
+    max-width:1140px;
+    margin:0 auto;
+}
+.display-flex{
+    display:flex;
+}
+
+/* header styles */
+
+header{
+    max-width:1140px;
+    margin:0 auto;
+}
+.navbar{
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    width:135px;
+    height:82px;
+}
+.nav-links{
+    list-style:none;
+}
+.nav-item{
+    margin-right:48px;
+}
+.nav-item-1{
+    color:#252432;
+    font-weight:bold;
+}
+.nav-item-2{
+    color:#8987A1;
+}
+.nav-item-3{
+    color:#000000;
+}
+.nav-link{
+    text-decoration:none;
+}
+
+/* Fresh-flower styles */
+
+.fresh-flowers{
+    margin-top:65px;
+    display:grid;
+    grid-template-columns: 570px 570px;
+}
+.fresh-flowers-title{
+    font-weight:bold;
+    font-size:4rem;
+}
+.fresh-flowers-split{
+    color:rgba(233, 90, 8, 1);
+}
+.fresh-flowers-description{
+    color:rgba(0, 0, 0, 0.5);
+    margin-top:70px;
+    margin-right:170px;
+}
+.img-flower{
+    width:570px;
+    height:355px;
+}
+
+/* Our Plants styles */
+.our-plants-title{
+    font-weight:bold;
+    font-size:3rem;
+}
+.our-plants-split{
+    color:rgba(233, 90, 8, 1);
+}
+.our-plants-description{
+    color:rgba(0, 0, 0, 0.5);
+    padding:0 125px;
+}
+.our-plants-container{
+    text-align: center;
+}
+
+.img-beautiful{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+.img-title{
+    font-weight:500;
+    font-size:1.4rem;
+    text-align:center;
+}
+
+.img-description{
+    font-weight:bold;
+    font-size:1.4rem;
+    text-align:center;
+}
+.btn-primary{
+    background-color: #E95A08;
+    width:270px;
+    color:#FFFFFF;
+    padding:15px 15px;
+    border:none;
+}
+
+/* Flower and Plants Lover styles */
+.flower-lover-container{
+    margin-top:210px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.img-resize-one{
+    width:540px;
+    height:597px;
+}
+.trusted-badge{
+    width:286px;
+    height:286px;
+    position:absolute;
+    left:550px;
+    top:1900px;
+}
+.flower-love-sub-container{
+    padding:0px 60px;
+}
+.flower-lover-title{
+    font-weight:bold;
+    font-size:3.1rem;
+}
+.list-item{
+    color:rgba(0, 0, 0, 0.5);
+    font-weight:400;
+    font-size:1.4rem;
+    padding-bottom:10px;
+}
+
+/* Responsive Media Query for small device */
+@media screen and (max-width:576px){
+    .nav-item-1,.nav-item-2{
+        display:none;
+    }
+    .navbar{
+        margin:0 15px;
+
+    }
+    .fresh-flowers{
+        display:grid;
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .fresh-flowers-description{
+         color:rgba(0, 0, 0, 0.5);
+    }
+    .our-plants-description{
+        padding:0px;
+    }
+    .img-beautiful{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:220px;
+    }
+}
+

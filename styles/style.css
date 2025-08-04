@@ -243,8 +243,8 @@ header{
 }
 /* footer styles */
 .footer-img-container{
-    max-width:1300px;
-    margin:0 auto;
+    width:1300px;
+    margin:0px;
     height:533px;
 }
 .footer-img-description-container{
@@ -266,8 +266,7 @@ header{
 }
 /* footer styles */
 .footer-second-part-container{
-    max-width:1300px;
-    margin:0 auto;
+    width:1140px;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     margin:0px 150px;
